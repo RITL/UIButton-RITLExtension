@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6D84B3957034E8C9F3B3F7C /* libPods-UIButton+RITLExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBE1C915034BA69648EB295 /* libPods-UIButton+RITLExtension.a */; };
+		DB1CBB662009E4FB00151A80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1CBB652009E4FB00151A80 /* AppDelegate.m */; };
+		DB1CBB692009E4FB00151A80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1CBB682009E4FB00151A80 /* ViewController.m */; };
+		DB1CBB6C2009E4FB00151A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1CBB6A2009E4FB00151A80 /* Main.storyboard */; };
+		DB1CBB6E2009E4FB00151A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1CBB6D2009E4FB00151A80 /* Assets.xcassets */; };
+		DB1CBB712009E4FB00151A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1CBB6F2009E4FB00151A80 /* LaunchScreen.storyboard */; };
+		DB1CBB742009E4FB00151A80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1CBB732009E4FB00151A80 /* main.m */; };
+		DB7B5FF4200DEF90000882EC /* UIButton+RITLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7B5FF3200DEF90000882EC /* UIButton+RITLExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A25DBA328B2435710A4F14CF /* Pods-UIButton+RITLExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButton+RITLExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIButton+RITLExtension/Pods-UIButton+RITLExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		A9126E629C9B2C5257E4CA69 /* Pods-UIButton+RITLExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButton+RITLExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIButton+RITLExtension/Pods-UIButton+RITLExtension.release.xcconfig"; sourceTree = "<group>"; };
+		AEBE1C915034BA69648EB295 /* libPods-UIButton+RITLExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIButton+RITLExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1CBB612009E4FB00151A80 /* UIButton+RITLExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIButton+RITLExtension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1CBB642009E4FB00151A80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1CBB652009E4FB00151A80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1CBB672009E4FB00151A80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB1CBB682009E4FB00151A80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB1CBB6B2009E4FB00151A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1CBB6D2009E4FB00151A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1CBB702009E4FB00151A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1CBB722009E4FB00151A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1CBB732009E4FB00151A80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB7B5FF2200DEF90000882EC /* UIButton+RITLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RITLExtension.h"; sourceTree = "<group>"; };
+		DB7B5FF3200DEF90000882EC /* UIButton+RITLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RITLExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1CBB5E2009E4FB00151A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D84B3957034E8C9F3B3F7C /* libPods-UIButton+RITLExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B62A3E55F4E0514EE3DC322 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A25DBA328B2435710A4F14CF /* Pods-UIButton+RITLExtension.debug.xcconfig */,
+				A9126E629C9B2C5257E4CA69 /* Pods-UIButton+RITLExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C768A661CF894CBDEA1B19B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEBE1C915034BA69648EB295 /* libPods-UIButton+RITLExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB1CBB582009E4FB00151A80 = {
+			isa = PBXGroup;
+			children = (
+				DB7B5FF1200DEF90000882EC /* UIButton(RITLExtension) */,
+				DB1CBB632009E4FB00151A80 /* UIButton+RITLExtension */,
+				DB1CBB622009E4FB00151A80 /* Products */,
+				6B62A3E55F4E0514EE3DC322 /* Pods */,
+				C768A661CF894CBDEA1B19B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1CBB622009E4FB00151A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1CBB612009E4FB00151A80 /* UIButton+RITLExtension.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1CBB632009E4FB00151A80 /* UIButton+RITLExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DB1CBB642009E4FB00151A80 /* AppDelegate.h */,
+				DB1CBB652009E4FB00151A80 /* AppDelegate.m */,
+				DB1CBB672009E4FB00151A80 /* ViewController.h */,
+				DB1CBB682009E4FB00151A80 /* ViewController.m */,
+				DB1CBB6A2009E4FB00151A80 /* Main.storyboard */,
+				DB1CBB6D2009E4FB00151A80 /* Assets.xcassets */,
+				DB1CBB6F2009E4FB00151A80 /* LaunchScreen.storyboard */,
+				DB1CBB722009E4FB00151A80 /* Info.plist */,
+				DB1CBB732009E4FB00151A80 /* main.m */,
+			);
+			path = "UIButton+RITLExtension";
+			sourceTree = "<group>";
+		};
+		DB7B5FF1200DEF90000882EC /* UIButton(RITLExtension) */ = {
+			isa = PBXGroup;
+			children = (
+				DB7B5FF2200DEF90000882EC /* UIButton+RITLExtension.h */,
+				DB7B5FF3200DEF90000882EC /* UIButton+RITLExtension.m */,
+			);
+			path = "UIButton(RITLExtension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1CBB602009E4FB00151A80 /* UIButton+RITLExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1CBB772009E4FB00151A80 /* Build configuration list for PBXNativeTarget "UIButton+RITLExtension" */;
+			buildPhases = (
+				28B6F86C4749B9844C6C9B30 /* [CP] Check Pods Manifest.lock */,
+				DB1CBB5D2009E4FB00151A80 /* Sources */,
+				DB1CBB5E2009E4FB00151A80 /* Frameworks */,
+				DB1CBB5F2009E4FB00151A80 /* Resources */,
+				F14043ED4AB2A95EE28FB30E /* [CP] Embed Pods Frameworks */,
+				E909F6A7FFFD1D27484CE308 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIButton+RITLExtension";
+			productName = "UIButton+RITLExtension";
+			productReference = DB1CBB612009E4FB00151A80 /* UIButton+RITLExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1CBB592009E4FB00151A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = YueWen;
+				TargetAttributes = {
+					DB1CBB602009E4FB00151A80 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB1CBB5C2009E4FB00151A80 /* Build configuration list for PBXProject "UIButton+RITLExtension" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1CBB582009E4FB00151A80;
+			productRefGroup = DB1CBB622009E4FB00151A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1CBB602009E4FB00151A80 /* UIButton+RITLExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1CBB5F2009E4FB00151A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1CBB712009E4FB00151A80 /* LaunchScreen.storyboard in Resources */,
+				DB1CBB6E2009E4FB00151A80 /* Assets.xcassets in Resources */,
+				DB1CBB6C2009E4FB00151A80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28B6F86C4749B9844C6C9B30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIButton+RITLExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E909F6A7FFFD1D27484CE308 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIButton+RITLExtension/Pods-UIButton+RITLExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F14043ED4AB2A95EE28FB30E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIButton+RITLExtension/Pods-UIButton+RITLExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1CBB5D2009E4FB00151A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7B5FF4200DEF90000882EC /* UIButton+RITLExtension.m in Sources */,
+				DB1CBB692009E4FB00151A80 /* ViewController.m in Sources */,
+				DB1CBB742009E4FB00151A80 /* main.m in Sources */,
+				DB1CBB662009E4FB00151A80 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB1CBB6A2009E4FB00151A80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1CBB6B2009E4FB00151A80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1CBB6F2009E4FB00151A80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1CBB702009E4FB00151A80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1CBB752009E4FB00151A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB1CBB762009E4FB00151A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1CBB782009E4FB00151A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25DBA328B2435710A4F14CF /* Pods-UIButton+RITLExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S4NWFZC5J;
+				INFOPLIST_FILE = "UIButton+RITLExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yue.UIButton-RITLExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB1CBB792009E4FB00151A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9126E629C9B2C5257E4CA69 /* Pods-UIButton+RITLExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S4NWFZC5J;
+				INFOPLIST_FILE = "UIButton+RITLExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yue.UIButton-RITLExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1CBB5C2009E4FB00151A80 /* Build configuration list for PBXProject "UIButton+RITLExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1CBB752009E4FB00151A80 /* Debug */,
+				DB1CBB762009E4FB00151A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1CBB772009E4FB00151A80 /* Build configuration list for PBXNativeTarget "UIButton+RITLExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1CBB782009E4FB00151A80 /* Debug */,
+				DB1CBB792009E4FB00151A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1CBB592009E4FB00151A80 /* Project object */;
+}
