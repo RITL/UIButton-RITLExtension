@@ -72,7 +72,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface UIButton (RITLExtension)<RITLSetterButton>
+@interface UIButton (RITLKit)<RITLSetterButton>
 
 @end
 

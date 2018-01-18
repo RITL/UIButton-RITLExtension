@@ -6,7 +6,7 @@
 //  Copyright © 2018年 YueWen. All rights reserved.
 //
 
-#import "UIButton+RITLExtension.h"
+#import "UIButton+RITLKit.h"
 #import "RITLRuntimeTool.h"
 
 
@@ -73,7 +73,7 @@
 
 @end
 
-@implementation UIButton (RITLExtension)
+@implementation UIButton (RITLKit)
 
 + (void)load
 {

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIButton+RITLExtension.h"
+#import "UIButton+RITLKit.h"
 #import <RITLKit.h>
 
 
@@ -29,6 +29,7 @@
     
     button.ritl_NormalTitle = @"哈哈哈";
     button.ritl_HighlightedTitle = @"按住啦";
+    button.ritl_NormalBackgroundImage = @"hahah".ritl_image;
     
     NSLog(@"normalTitle = %@",button.ritl_NormalTitle);
     NSLog(@"hightTitle = %@",button.ritl_HighlightedTitle);
